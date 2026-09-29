@@ -13,7 +13,7 @@ st.write(
 st.divider()
 
 # Contador de días
-fecha_inicio = datetime.date(2024, 05, 27)  
+fecha_inicio = datetime.date(2024, 5, 27)  
 dias_juntos = (datetime.date.today() - fecha_inicio).days
 st.metric(
     label="Días compartiendo momentos juntos 🗓️", value=f"{dias_juntos} días"
